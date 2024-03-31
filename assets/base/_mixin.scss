@@ -1,0 +1,64 @@
+/* border */
+@mixin border($border_width, $border_style, $border_color, $border_radius) {
+   border-width: $border_width;
+   border-style: $border_style;
+   border-color: $border_color;
+   border-radius: $border_radius;
+}
+
+/* background_img */
+@mixin background_image($img) {
+   background-image: url($img);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+
+/* padding */
+@mixin padding($padding_top, $padding_right, $padding_bottom, $padding_left, ) {
+   padding-top: $padding_top;
+   padding-right: $padding_right;
+   padding-bottom: $padding_bottom;
+   padding-left: $padding_left;
+
+}
+
+/* margin */
+@mixin margin($margin_top, $margin_right, $margin_bottom, $margin_left, ) {
+   margin-top: $margin_top;
+   margin-right: $margin_right;
+   margin-bottom: $margin_bottom;
+   margin-left: $margin_left;
+
+}
+
+/* padding top bottom */
+@mixin py($padding_top, $padding_bottom) {
+   padding-top: $padding_top;
+   padding-bottom: $padding_bottom;
+
+}
+
+/* padding left rightt */
+@mixin px($padding_left, $padding_right) {
+   padding-left: $padding_left;
+   padding-right: $padding_right;
+}
+
+/* margin left rightt */
+@mixin mx($margin_left, $margin_right) {
+   margin-left: $margin_left;
+   margin-right: $margin_right;
+}
+
+/* margin top bootom */
+@mixin mx($margin_top, $margin_bottom) {
+   margin-top: $margin_top;
+   margin-bottom: $margin_bottom;
+}
+
+/* width height */
+@mixin wh($width, $height) {
+   width: $width;
+   height: $height;
+}
